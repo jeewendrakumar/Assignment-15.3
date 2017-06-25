@@ -1,17 +1,7 @@
-# Assignment-15.3
+# AcadGild - Web application development with React and Relay
 
-Write a GraphQL query to fetch last 20 records of Book
+#### To Build
+Run: `npm install`
 
-{
-  bookStore {
-    books(last: 20) {
-      edges {
-        cursor
-        node {
-          id
-          title
-        }
-      }
-    }
-  }
-}
+### To start:
+Run: `npm start`
